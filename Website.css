@@ -1,0 +1,178 @@
+/*Site colors*/
+body {
+	background-color: #e5d6af;
+}
+.foo {
+  position: absolute;
+	top: 100px;
+	left: 0;
+  width: 100%;
+  height: 1420px;
+}
+.bg {
+  background-color: #f9f8f6;
+}
+#bgContact {
+	height: 750px;
+}
+.blue {
+	background-color: #226aa9;
+	top: 710px;
+	width: 100%;
+	height: 63px;
+}
+
+/*Images*/
+.bg-logo {
+	background: url(images/logoPlaceholder.png);
+	width: 325px;
+	height: 50px;
+	background-color: #e5d6af;
+}
+#logo {
+	position: absolute;
+	left: 15px;
+	top: 10px;
+}
+.bg-cover {
+	background: url(images/Banner.jpg);
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+}
+#banner {
+	position: absolute;
+	top: 112px;
+	left: 0px;
+}
+#productTable {
+	width: 600px;
+}
+#productTable tr th {
+	padding: 10px;
+}
+/*
+.cycle-slideshow {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 755px;
+	width: 20%; height: 20%;
+}*/
+
+/*Tekst location*/
+.left_column {
+    margin-right:170px;
+	position: absolute;
+	top: 750px;
+	left: 50px;
+}
+.left_column p {
+	/*background-color: #C09F80;*/
+	padding: 5px;
+	width: 109%;
+}
+#homeText {
+	top: 800px;
+}
+#siteText {
+	top: 150px;
+}
+.btn {
+	margin-left: 15px;
+}
+/*Navigation Bar*/
+.container {
+	float: none;
+    margin: 0 auto;
+}
+#nav_container {
+	position:absolute;
+	left: 0;
+	width:100%;
+   	height:63px;   /* Height of the footer */
+    background-color:#226aa9;
+	margin-top: 65px;
+}
+#nav_container li { 
+    display:inline-block; 
+	padding-top: 13px;
+}
+#nav_container li a {
+    display:inline-block;
+    padding:10px;
+    color: #f9f8f6;
+	/*background-color: #74aee0;*/
+}
+#endBar {
+	list-style-type: none;
+	position:absolute;
+	top:1500px;
+   	bottom:0;
+	left: 0;
+	width:100%;
+   	height:110px;   /* Height of the footer */
+	color: #f9f8f6;
+	background-color:#226aa9;
+}
+#endBar li {
+	padding: 15px;
+}
+#endBarContact {
+	list-style-type: none;
+	position:absolute;
+	top:840px;
+   	bottom:0;
+	left: 0;
+	width:100%;
+   	height:110px;   /* Height of the footer */
+	color: #f9f8f6;
+	background-color:#226aa9;
+}
+#endBarContact li {
+	padding: 15px;
+}
+
+/*Textfelt*/
+.form-group {
+	width: 100%;
+	margin-left: 100px;
+}
+#name {
+	width: 60%;
+	margin-left: 80px
+}
+.nameLabel {
+	margin-left: 23px;
+}
+#email {
+	width: 60%;
+	margin-left: 80px
+}
+.emailLabel {
+	margin-left: 23px;
+}
+#message {
+	width: 60%;
+	margin-left: 80px
+}
+#spamProtect {
+	width: 60%;
+	margin-left: 80px
+}
+#submit {
+	margin-left: 95px;
+}
+.form-horizontal label {
+	position: absolute;
+	left: 0%;
+}
+a:hover { 
+    background-color: #74aee0;
+}
+
+
+#notFunctional{
+	color: red;
+	top: 90%;
+	margin-left: 80px;
+}
